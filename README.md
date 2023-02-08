@@ -38,7 +38,7 @@ Resource | #x_resource | The unique identifier for the resource on HDX.
 State | #status | The status of the dataset (e.g. "active").
 URL | #meta+url | The #HXL Proxy URL for the resource contents.
 
-### REcipes
+### Recipes
 
 The output is a #HXL-tagged CSV file with the following columns:
 
