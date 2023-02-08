@@ -9,3 +9,9 @@ $(OUTPUT): $(VENV)
 
 $(VENV):
 	rm -rf venv && python3 -m venv venv && . $(VENV) && pip3 install -r requirements.txt
+
+clean:
+	rm -rf $(OUTPUT)
+
+real-clean: clean
+	rm -rf $(VENV)
